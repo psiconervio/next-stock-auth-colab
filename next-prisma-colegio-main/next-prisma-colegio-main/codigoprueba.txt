@@ -1,0 +1,2 @@
+package.json : esta linea estaba debajo de post install
+"postbuild": "prisma migrate deploy"
