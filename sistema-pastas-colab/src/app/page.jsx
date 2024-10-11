@@ -1,16 +1,14 @@
 'use client'
-import DataEsp32 from "@/components/DataEsp32";
-import Carrusel from "@/components/Carrusel";
-import Footer from "@/components/Footer";
+
+import Footer from "../components/Footer";
 import Image from "next/image";
 function HomePage() {
   return (
     <div>
     {/* <DataEsp32/> */}
-    <Carrusel/>
+    {/* <Carrusel/> */}
     {/* <Section/> */}
-    <Footer/>
-    
+    {/* <Footer/> */}
   </div>
   )
 }
