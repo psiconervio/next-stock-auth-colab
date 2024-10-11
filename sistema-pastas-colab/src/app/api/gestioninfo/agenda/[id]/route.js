@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { PrismaClient } from "@prisma/client";
-import cloudinary from "@/libs/cloudinary";
-import { processImage } from "@/libs/processImage";
+import cloudinary from "@/lib/cloudinary";
+import { processImage } from "@/lib/processImage";
 
 const prisma = new PrismaClient();
 

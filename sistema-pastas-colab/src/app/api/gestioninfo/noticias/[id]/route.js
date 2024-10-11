@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
-import prisma from "@/libs/db";
-import cloudinary from "@/libs/cloudinary";
-import { processImage } from "@/libs/processImage";
+import prisma from "@/lib/db";
+import cloudinary from "@/lib/cloudinary";
+import { processImage } from "@/lib/processImage";
 import { unlink } from "fs/promises";
 
 

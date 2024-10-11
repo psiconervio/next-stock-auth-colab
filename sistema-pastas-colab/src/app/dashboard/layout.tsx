@@ -1,10 +1,12 @@
-import './globals.css';
+import { ThemeProvider } from '@/components/theme-provider';
+// import './globals.css';
+import '.././globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { ThemeProvider } from "@/components/theme-provider"
-import { Toaster } from "@/components/ui/toaster"
-import { MainNav } from "@/components/main-nav"
-import { UserNav } from "@/components/user-nav"
+import { MainNav } from '@/components/main-nav';
+import { UserNav } from '@/components/user-nav';
+import { Toaster } from '@/components/ui/toaster';
+
 
 const inter = Inter({ subsets: ['latin'] });
 

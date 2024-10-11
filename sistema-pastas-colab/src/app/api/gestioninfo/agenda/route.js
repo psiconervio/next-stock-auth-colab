@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import prisma from "@/libs/db";
+import prisma from "@/lib/db";
 import { unlink } from "fs/promises";
 // import cloudinary from "@/libs/cloudinary";
 // import { processImage } from "@/libs/processImage";

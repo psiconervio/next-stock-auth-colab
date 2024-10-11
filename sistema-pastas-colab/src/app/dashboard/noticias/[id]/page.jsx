@@ -1,4 +1,4 @@
-import prisma from "@/libs/db";
+import prisma from "@/lib/db";
 import Buttons from "@/app/dashboard/noticias/[id]/buttons";
 import Image from "next/image";
 
